@@ -1,0 +1,33 @@
+.vertical-center{
+	min-height: 100vh;
+	margin: 0;
+	display: flex;
+	align-items: center;
+}
+
+h1{
+	margin: 24px 0;
+}
+
+.messages p{
+	margin: 6px 0;
+}
+
+.btn-file {
+    position: relative;
+}
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    opacity: 0;
+    outline: none;
+    color: black;
+    background: white;
+    cursor: inherit;
+    display: block;
+}

@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>File Metadata Service</title>
+	<link rel="stylesheet" href="./css/bootstrap.min.css"></link>
+	<link rel="stylesheet" href="./css/styles.css"></link>
+</head>
+<body>
+	<div class='vertical-center'>
+		<div class='container'>
+			<div class='row'>
+				<div class="col-md-4 col-md-offset-4 text-center">
+					<h1 class='text-center'>File Metadata Service</h1>
+					<h3 class='text-center'>How To Use</h3>
+					<p>Use the form  below to submit a file to the service. You'll get back a JSON object with metadata information from that file! It will look something like this...</p>
+					<code style='color:green'>{"fileName: 'helloworld.html", "size": 11}</code>
+					<hr>
+				</div>
+				<p></p>
+				<div class="col-md-4 col-md-offset-4">
+					<form action="/data" method="post" enctype="multipart/form-data">
+						<input type="hidden" name="MAX_FILE_SIZE" value="1000" /><span class=".btn-file"><input type="file" name="file" class='btn btn-success btn-block' />
+
+						<input type='submit' value='Submit' class='btn btn-primary btn-block'></input>
+					</form>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
