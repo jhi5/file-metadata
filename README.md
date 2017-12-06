@@ -1,6 +1,6 @@
-File Size Metadata Service
+File Size Metadata API Service
 Created by J. Munford
-Node JS / HTML
+Node JS / Express / HTML
 
 A simple API tool allowing users to submit a file and get served its size back in a JSON object. 
 
